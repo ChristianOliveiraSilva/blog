@@ -1,6 +1,6 @@
 <template>
   <article>
-    <h2>Sobre o projeto Khaos</h2>
+    <h2>Sobre o projeto</h2>
     <p>Nesta página você encontrará as informações sobre o projeto, seus criadores e etc.</p>
 
     <section>

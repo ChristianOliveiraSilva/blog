@@ -34,6 +34,11 @@ a {
   transition: 0.4s;
 }
 
+a.link {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
 /* classes to posts*/
 
 .post-container .title {
