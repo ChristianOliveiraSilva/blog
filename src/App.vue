@@ -10,12 +10,14 @@
   <header>
     <section class="header">
       <div class="logo">
-        <img alt="Logo" src="@/assets/logo-menu.png" />
+        <img alt="Logo" src="@/assets/logo.svg" />
       </div>
 
       <nav class="menu">
         <RouterLink to="/">Início </RouterLink>
         <RouterLink to="/about">Sobre</RouterLink>
+        <a href="https://www.standwithukraine.how/pt">#StandWithUkraine</a>
+        <a href="https://www.facebook.com/comoeuvimpararaki" to="/about">Facebook</a>
       </nav>
     </section>
 
@@ -35,7 +37,7 @@
 
   <footer>
     <div class="logo">
-      <img alt="Logo" src="@/assets/logo-menu.png" />
+      <img alt="Logo" src="@/assets/logo.svg" />
     </div>
 
     <h3>Dúvidas ou sugestões?</h3>
@@ -75,7 +77,7 @@
     flex: 0 1 80%;
   }
 
-  section.header .menu a {
+  section.header .menu :is(a, span) {
     margin-inline: 15px;
   }
 

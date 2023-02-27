@@ -7,17 +7,17 @@ const {post} = defineProps(['post'])
     <article class="post">
         <div class="content-container">
             <header>
-                <p><span class="tag">{{post.tags.join(', ')}}</span> {{post.date.toLocaleDateString()}}</p>
+                <p><span class="tag">{{post.tags.join(', ')}}</span> {{post.date && post.date.toLocaleDateString()}}</p>
             </header>
             <section>
-                <a :href="post.link">
+                <a :href="post.link ? post.link : '#'">
                     <h1><b>{{post.title}}</b></h1>
                     <p>{{post.subtitle}}</p>
                 </a>
             </section>
         </div>
         <div class="img-container">
-            <a :href="post.link">
+            <a :href="post.link ? post.link : '#'">
                 <img :src="post.image" />
             </a>
         </div>
