@@ -38,6 +38,15 @@ export default [
     //     link: "refutando-xxxxxxx2",
     //     component: () => import('./components/PoliticaIncentivo.vue'),
     // },
+    // {
+    //     title: "Transcrevendo xxxxxx",
+    //     subtitle: "uma frase sobre o livro",
+    //     date: new Date('2023-02-22'),
+    //     tags: [tags.POLITICA, tags.GEOPOLITICA, tags.LIBERALISMO],
+    //     image: "teste.jpeg",
+    //     link: "refutando-xxxxxxx2",
+    //     component: () => import('./components/PoliticaIncentivo.vue'),
+    // },
     {
         title: "Por que eu não como carne? Minha visão de mundo.",
         date: new Date('2023-02-26'),
@@ -78,5 +87,13 @@ export default [
         image: "teste.jpeg",
         link: "minha-visao-sobre-o-futuro-tecnologia-e-fim-do-capitalismo",
         component: () => import('./components/MinhaVisaoSobreFuturoTecnologiaFimCapitalismo.vue'),
+    },
+    {
+        title: "Como identificar uma teoria da conspiração",
+        date: new Date('2023-02-26'),
+        tags: [tags.POLITICA],
+        image: "Dollarnote_siegel_hq.jpg",
+        link: "como-identificar-uma-teoria-da-conspiracao",
+        component: () => import('./components/IdentificarConspiracao.vue'),
     },
 ]
