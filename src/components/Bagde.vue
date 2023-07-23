@@ -9,7 +9,6 @@ const select = (index) => {
     state.tag = index
     selectTag(tags[index] || null)
 }
-
 </script>
 
 <template>
