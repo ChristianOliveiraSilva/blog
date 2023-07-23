@@ -54,6 +54,7 @@ const {post} = defineProps(['post'])
 
     h1 {
       font-size: 2em;
+      line-height: 32px;
     }
 
     span.tag {

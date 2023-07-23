@@ -12,7 +12,7 @@ const select = (index) => {
 </script>
 
 <template>
-    <div class="tag-container">
+    <div class="tag-container scroll-container">
         <div :class="{ active: state.tag == -1 }" class="tag" @click="() => select(-1)">TODAS</div>
         <div :class="{ active: state.tag == index }" class="tag" v-for="(tag, index) in tags" :key="tag" @click="() => select(index)">
             {{tag.toUpperCase()}}
@@ -23,10 +23,8 @@ const select = (index) => {
 <style scoped>
 
 .tag-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 12px;
+    user-select: none;
 }
 
 .tag-container .tag:first-child {
@@ -43,6 +41,7 @@ const select = (index) => {
     padding: 6px;
     border: 1px solid #c7ffe9;
     cursor: pointer;
+    user-select: none;
 }
 
 .tag-container .tag.active {
@@ -53,4 +52,25 @@ const select = (index) => {
     opacity: 0.9;
 }
 
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll-container .tag {
+  display: inline-block;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background-color: #f0f0f0;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #cdcdcd;
+  height: 8px;
+  width: 8px;
+  border-radius: 3px;
+}
 </style>

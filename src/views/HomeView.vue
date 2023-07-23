@@ -22,6 +22,9 @@ const selectTag = (tag) => {
 
     <section>
       <Post v-for="post in state.posts" :post="post" :key="post.link" />
+      <div v-if="state.posts.length === 0">
+        <p>Não posts disponíveis</p>
+      </div>
     </section>
   </main>
 </template>
@@ -36,10 +39,23 @@ const selectTag = (tag) => {
       padding-bottom: 5px;
       margin-bottom: 25px;
       display: flex;
-      gap: 45px;
+      flex-direction: column;
+      gap: 15px;
     }
 
     h1 {
-      font-size: 2em;
+      font-size: 2.5em;
+    }
+
+    @media (min-width: 850px) {
+      header {
+        flex-direction: row;
+        align-items: center;
+        gap: 45px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
     }
 </style>
