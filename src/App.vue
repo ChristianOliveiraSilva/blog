@@ -11,7 +11,7 @@
     <header>
       <section class="header">
         <div class="logo">
-          <img alt="Logo" src="@/assets/logo.svg" />
+          <img alt="logo" title="Que tal pensar fora da caixa?" src="@/assets/logo.svg" />
         </div>
 
         <nav class="menu">
@@ -38,7 +38,7 @@
 
     <footer>
       <div class="logo">
-        <img alt="Logo" src="@/assets/logo.svg" />
+        <img alt="Logo" title="Que tal pensar fora da caixa?" src="@/assets/logo.svg" />
       </div>
 
       <h3>Dúvidas ou sugestões?</h3>
