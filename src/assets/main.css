@@ -12,11 +12,12 @@
   --primary-color: #27ae60;
   --secondary-color: #8ceead;
   --tertiary-color: #232e52;
+  --main-font: 'Graphik';
 }
 
 body {
   line-height: 1.6;
-  font-family: 'Graphik';
+  font-family: var(--main-font);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -4,11 +4,12 @@
 </script>
 
 <template>
-    <section v-if="sources" class="sources-container">
-      <h2>Fontes</h2>
+    <section v-if="sources && sources.length > 0" class="sources-container">
+      <h2>📕📖 Fontes</h2>
       <ol>
           <li v-for="(source, index) in sources" :key="index">
-            <a class="link" :href="source.url">{{ source.text.substring(0, 150) }} <small>[{{source.url.substring(0, 100)}}]</small></a>
+            <a class="link" :href="source.url">{{ source.title && source.title.substring(0, 150) }} <small>[{{source.url.substring(0, 100)}}]</small></a>
+            <p class="comment">{{ source.comment }}</p>
           </li>
       </ol>
 
@@ -19,9 +20,10 @@
 <style scoped>
 
 .sources-container {
+  font-family: 'Times New Roman', Times, serif;
   margin-block: 2rem;
-  padding: 2rem;
-  background-color: #fafafa;
+  padding: 1.25rem 2rem;
+  background-color: #f8f8f8;
   color: #333;
 }
 
@@ -35,6 +37,10 @@
   margin-inline: 2rem;
 }
 
+.sources-container .comment {
+  margin: .5rem 1rem;
+}
+
 .sources-container ol li {
   margin: 0;
   padding: 0;
@@ -44,5 +50,6 @@
 
 .sources-container .warning {
   font-size: 10px;
+  font-family: var(--main-font);
 }
 </style>

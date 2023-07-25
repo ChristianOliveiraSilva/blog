@@ -33,7 +33,6 @@
       <p>Ao invés de temer a substituição total de empregos, é importante reconhecer que a IA pode ser uma aliada para melhorar a produtividade e a qualidade do trabalho humano, liberando-nos para atividades mais criativas e estratégicas. Embora existam preocupações legítimas sobre o impacto da inteligência artificial no mercado de trabalho, é crucial que governos, empresas e a sociedade em geral estejam preparados para se adaptar a essas mudanças. Investir em educação e no desenvolvimento de habilidades relevantes para o futuro é uma estratégia promissora para garantir que as pessoas possam aproveitar as oportunidades que surgem com a tecnologia, em vez de serem prejudicadas por ela.</p>
 
       <Sources :sources="[
-        {url: 'https://onlinealarmkur.com/pt/#06:00', text: 'Relogio'}
       ]" />
     </main>
 </template>
