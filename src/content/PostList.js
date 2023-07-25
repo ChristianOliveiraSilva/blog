@@ -2,15 +2,6 @@ import tags from './tags'
 
 // this is a stack of news, the first here it'll be the first in the page
 export default [
-    {
-        title: "Minha ideia com o blog",
-        subtitle: "O motivo pela qual eu resolvi escrever minhas ideias",
-        date: new Date('2023-07-23'),
-        tags: [tags.OPINIAO],
-        image: "capa-pc.jpg",
-        link: "primeiro-post",
-        component: () => import('./components/PrimeiroPost.vue'),
-    },
     // {
     //     title: "A política do incentivo",
     //     subtitle: "A política do incentivo define nossa sociedade",
@@ -18,7 +9,7 @@ export default [
     //     tags: [tags.POLITICA, tags.GEOPOLITICA, tags.LIBERALISMO],
     //     image: "teste.jpeg",
     //     link: "politica-incentivo",
-    //     component: () => import('./components/PoliticaIncentivo.vue'),
+    //     component: () => import('./posts/PoliticaIncentivo.vue'),
     // },
     // {
     //     title: "Refutando Ciro Gomes: O que eu concordo e o que discordo dele",
@@ -27,7 +18,7 @@ export default [
     //     tags: [tags.POLITICA, tags.GEOPOLITICA, tags.LIBERALISMO],
     //     image: "teste.jpeg",
     //     link: "refutando-ciro-gomes",
-    //     component: () => import('./components/PoliticaIncentivo.vue'),
+    //     component: () => import('./posts/PoliticaIncentivo.vue'),
     // },
     // {
     //     title: "Refutando xxxxxx: O que eu concordo e o que discordo dele",
@@ -36,7 +27,7 @@ export default [
     //     tags: [tags.POLITICA, tags.GEOPOLITICA, tags.LIBERALISMO],
     //     image: "teste.jpeg",
     //     link: "refutando-xxxxxxx1",
-    //     component: () => import('./components/PoliticaIncentivo.vue'),
+    //     component: () => import('./posts/PoliticaIncentivo.vue'),
     // },
     // {
     //     title: "Refutando xxxxxx: O que eu concordo e o que discordo dele",
@@ -45,16 +36,7 @@ export default [
     //     tags: [tags.POLITICA, tags.GEOPOLITICA, tags.LIBERALISMO],
     //     image: "teste.jpeg",
     //     link: "refutando-xxxxxxx2",
-    //     component: () => import('./components/PoliticaIncentivo.vue'),
-    // },
-    // {
-    //     title: "Transcrevendo xxxxxx",
-    //     subtitle: "uma frase sobre o livro",
-    //     date: new Date('2023-02-22'),
-    //     tags: [tags.POLITICA, tags.GEOPOLITICA, tags.LIBERALISMO],
-    //     image: "teste.jpeg",
-    //     link: "refutando-xxxxxxx2",
-    //     component: () => import('./components/PoliticaIncentivo.vue'),
+    //     component: () => import('./posts/PoliticaIncentivo.vue'),
     // },
     // {
     //     title: "Por que eu não como carne? Minha visão de mundo.",
@@ -62,7 +44,7 @@ export default [
     //     tags: [tags.OPINIAO, tags.FILOSOFIA],
     //     image: "teste.jpeg",
     //     link: "vegetariano",
-    //     component: () => import('./components/Vegetariano.vue'),
+    //     component: () => import('./posts/Vegetariano.vue'),
     // },
     // {
     //     title: "Cuba",
@@ -71,7 +53,7 @@ export default [
     //     tags: [tags.POLITICA, tags.OPINIAO, tags.GEOPOLITICA],
     //     image: "teste.jpeg",
     //     link: "cuba",
-    //     component: () => import('./components/Cuba.vue'),
+    //     component: () => import('./posts/Cuba.vue'),
     // },
     // {
     //     title: "Por que a esquerda gosta de chamar qualquer um que pense diferente de fascista?",
@@ -79,7 +61,7 @@ export default [
     //     tags: [tags.POLITICA],
     //     image: "teste.jpeg",
     //     link: "esquerda-gosta-de-chamar-fascista",
-    //     component: () => import('./components/EsquerdaGostaChamarFascista.vue'),
+    //     component: () => import('./posts/EsquerdaGostaChamarFascista.vue'),
     // },
     // {
     //     title: "Minha geração está perdida",
@@ -87,7 +69,7 @@ export default [
     //     tags: [tags.OPINIAO],
     //     image: "minha-geracao-esta-perdida.jpg",
     //     link: "minha-geracao-esta-perdida",
-    //     component: () => import('./components/MinhaGeracaoEstaPerdida.vue'),
+    //     component: () => import('./posts/MinhaGeracaoEstaPerdida.vue'),
     // },
     // {
     //     title: "Como identificar uma teoria da conspiração",
@@ -95,6 +77,24 @@ export default [
     //     tags: [tags.POLITICA],
     //     image: "Dollarnote_siegel_hq.jpg",
     //     link: "como-identificar-uma-teoria-da-conspiracao",
-    //     component: () => import('./components/IdentificarConspiracao.vue'),
+    //     component: () => import('./posts/IdentificarConspiracao.vue'),
     // },
+    {
+        title: "Por que você não deve temer IAs?",
+        subtitle: "Uma breve explicação do que são IAs",
+        date: new Date('2023-07-25'),
+        tags: [tags.OPINIAO],
+        image: "capa-pc.jpg",
+        link: "temer-ias",
+        component: () => import('./posts/PorqueNaoTemerIA.vue'),
+    },
+    {
+        title: "Minha ideia com o blog",
+        subtitle: "O motivo pela qual eu resolvi escrever minhas ideias",
+        date: new Date('2023-07-23'),
+        tags: [tags.OPINIAO],
+        image: "capa-pc.jpg",
+        link: "primeiro-post",
+        component: () => import('./posts/PrimeiroPost.vue'),
+    },
 ]

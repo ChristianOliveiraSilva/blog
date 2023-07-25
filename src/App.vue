@@ -15,10 +15,10 @@
         </div>
 
         <nav class="menu">
-          <RouterLink to="/">Início </RouterLink>
+          <RouterLink to="/">Início</RouterLink>
           <RouterLink to="/about">Sobre</RouterLink>
           <a href="https://www.standwithukraine.how/pt">#StandWithUkraine</a>
-          <a href="https://www.facebook.com/comoeuvimpararaki" to="/about">Facebook</a>
+          <a href="https://www.facebook.com/comoeuvimpararaki" title="Meu facebook 😬">Facebook</a>
         </nav>
       </section>
 
@@ -41,7 +41,7 @@
         <img alt="Logo" title="Que tal pensar fora da caixa?" src="@/assets/logo.svg" />
       </div>
 
-      <h3>Dúvidas ou sugestões?</h3>
+      <h3>Dúvidas ou sugestões? ☝️</h3>
       <p>Para saber mais, dar sugustões ou doações, entre em contato</p>
 
       <a href="https://wa.me/5567993369450">

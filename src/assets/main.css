@@ -35,7 +35,7 @@ a {
 
 a.link {
   text-decoration: underline;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 /* classes to posts */
@@ -49,6 +49,10 @@ a.link {
   font-size: 1.3em;
   font-weight: 300;
   margin-bottom: 0rem;
+}
+
+.post-container p {
+  margin-block: 1rem;
 }
 
 .post-container .centered-container {
@@ -73,8 +77,5 @@ a.link {
   max-width: 600px;
 }
 
-.post-container p {
-  margin-block: 1rem;
-}
 
 
