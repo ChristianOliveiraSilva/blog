@@ -5,7 +5,7 @@
     <section>
       <h4>Missão</h4>
 
-      <p>O Blog Multidisciplinar tem como missão promover o compartilhamento do conhecimento em diversas áreas, abordando temas como programação, tecnologia, games, investimentos, geopolítica, política, filosofia e opinião. A plataforma busca inspirar e empoderar os leitores, oferecendo um espaço propício para a aprendizagem contínua, o debate construtivo e o desenvolvimento do pensamento crítico.</p>
+      <p>O Blog do Chris tem como missão promover o compartilhamento do conhecimento em diversas áreas, abordando temas como programação, tecnologia, games, investimentos, geopolítica, política, filosofia e opinião. A plataforma busca inspirar e empoderar os leitores, oferecendo um espaço propício para a aprendizagem contínua, o debate construtivo e o desenvolvimento do pensamento crítico.</p>
     </section>
 
     <section>
@@ -40,6 +40,31 @@
       <h4>Tecnologia</h4>
 
       <p>Construí o Blog por conta própria, utilizando uma tecnologia simples e sem a necessidade de nenhum backend. Optei por utilizar o vue.js e hospedei-o na plataforma Vercel.</p>
+    </section>
+
+    <h2>Sobre mim</h2>
+    <p>Eu sou chris e muito provavelmente você me conhece! Se não, de uma olhada nos tópicos abaixo 👇</p>
+
+    <section>
+      <h4>Minha história</h4>
+
+      <p>Nasci em MG, cresci no MS na cidade de <a class="link" href="https://pt.wikipedia.org/wiki/Tr%C3%AAs_Lagoas">Três Lagoas</a>! Isso significa que sou acostumado com calor, muitos mosquitos, um bom Tereré e gente de cara fechada. No geral, minha infância foi ótima, cresci em meio a bons amigos e tive bons professores para guiar meus estudos</p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </section>
+
+    <section>
+      <h4>Minha convicção</h4>
+
+      <p></p>
+    </section>
+
+    <section>
+      <h4>Meus trabalhos</h4>
+
+      <p></p>
     </section>
 
     <section>
