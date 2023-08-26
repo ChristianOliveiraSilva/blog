@@ -49,7 +49,11 @@ a.link {
 .post-container .subtitle {
   font-size: 1.3em;
   font-weight: 300;
-  margin-bottom: 0rem;
+  margin-block: 1rem;
+}
+
+.post-container .subtitle.spaced-bottom {
+  margin-bottom: 2rem;
 }
 
 .post-container p {

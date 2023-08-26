@@ -42,7 +42,7 @@
       <p>Construí o Blog por conta própria, utilizando uma tecnologia simples e sem a necessidade de nenhum backend. Optei por utilizar o vue.js e hospedei-o na plataforma Vercel.</p>
     </section>
 
-    <h2>Sobre mim</h2>
+    <!-- <h2>Sobre mim</h2>
     <p>Eu sou chris e muito provavelmente você me conhece! Se não, de uma olhada nos tópicos abaixo 👇</p>
 
     <section>
@@ -65,7 +65,7 @@
       <h4>Meus trabalhos</h4>
 
       <p></p>
-    </section>
+    </section> -->
 
     <section>
       <p style="text-align: right;"><small><i>Espero que aproveitem!</i></small></p>

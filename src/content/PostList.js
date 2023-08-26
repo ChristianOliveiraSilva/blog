@@ -89,6 +89,15 @@ export default [
     //     component: () => import('./posts/PorqueNaoTemerIA.vue'),
     // },
     {
+        title: "Devo fazer faculdade?",
+        subtitle: "É muito comum este questionamento nos dias atuais",
+        date: new Date('2023-08-26'),
+        tags: [tags.OPINIAO],
+        image: "faculdade.jpg",
+        link: "faculdade",
+        component: () => import('./posts/Faculdade.vue'),
+    },
+    {
         title: "Minha ideia com o blog",
         subtitle: "O motivo pela qual eu resolvi escrever minhas ideias",
         date: new Date('2023-07-23'),
