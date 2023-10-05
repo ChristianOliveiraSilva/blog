@@ -7,7 +7,7 @@ const INVESTIMENTOS = "investimentos"
 const GEOPOLITICA = "geopolítica"
 const POLITICA = "política"
 const FILOSOFIA = "filosofia"
-const LIBERALISMO = "liberalismo"
+const ECONOMIA = "economia"
 
 const OPINIAO = "opinião"
 const OUTROS = "outros"
@@ -20,7 +20,7 @@ const tags = {
     GEOPOLITICA,
     POLITICA,
     FILOSOFIA,
-    LIBERALISMO,
+    ECONOMIA,
     OPINIAO,
     OUTROS
 }
