@@ -1,5 +1,6 @@
 {
     "rewrites": [
-        {"source": "/(.*)", "destination": "/" }
+        { "source": "/(.*)", "destination": "/" },
+        { "source": "/(.*)", "destination": "/teste.html", "headers": {"Host": "teste.blogdochris.com"} }
     ]
 }
